@@ -7,8 +7,6 @@ import './styles.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* The basename must match your repo name exactly */}
-    <BrowserRouter basename="/FASHION101">
-      <App />
-    </BrowserRouter>
+   <App />
   </React.StrictMode>
 )
